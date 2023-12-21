@@ -1,0 +1,40 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  overflow: hidden;
+}
+
+form.form{
+  max-width: 500px;
+}
+button{
+  max-width: 125px;
+  margin: 1em 0;
+}
+.absolute{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./flo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 100;
+  left: 100%;
+  
+  /* animation: animate 2s linear 1 forwards; */
+}
+
+@keyframes animate {
+  from{
+    left: 100%;
+  }
+  to{
+    left: 0%;
+  }
+}
